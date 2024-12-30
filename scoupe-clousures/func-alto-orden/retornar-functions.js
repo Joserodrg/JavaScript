@@ -10,6 +10,10 @@ function masGrandeQue(n) {
   return (m) => m > n;
 }
 
+// después “creamos” dos funciones, utilizando
+// nuestra definición de masGrandeQue, usándola como
+// un template para otra función, para entender un poco más
+// como funciona esto debemos conocer: lambdas y closures.
 const masGrandeQue10 = masGrandeQue(10);
 const masGrandeQue20 = masGrandeQue(20);
 
