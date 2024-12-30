@@ -1,0 +1,1 @@
+flight.hasOwnProperty('number')
