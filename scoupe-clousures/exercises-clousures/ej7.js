@@ -11,7 +11,7 @@ function createUserIdGenerator() {
   };
 }
 
-const generateUserId = createUserIdGenerator();
+generateUserId = createUserIdGenerator();
 
 console.log(generateUserId());
 console.log(generateUserId());

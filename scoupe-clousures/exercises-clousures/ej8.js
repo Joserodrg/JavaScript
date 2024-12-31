@@ -17,10 +17,10 @@ function createScoreTracker() {
   };
 }
 
-const scoreTraking = createScoreTracker();
+scoreTraking = createScoreTracker();
 
 scoreTraking.increment(10);
 console.log(scoreTraking.getScore());
 
-scoreTraking.increment(5);
+scoreTraking.increment(5); 
 console.log(scoreTraking.getScore());

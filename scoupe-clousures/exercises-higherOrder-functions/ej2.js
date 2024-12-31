@@ -11,7 +11,7 @@ function createMultiplier(n) {
   };
 }
 
-const multiplyFor5 = createMultiplier(5);
-const result = multiplyFor5(2);
+multiplyFor5 = createMultiplier(5);
+result = multiplyFor5(2);
 
 console.log(result);
