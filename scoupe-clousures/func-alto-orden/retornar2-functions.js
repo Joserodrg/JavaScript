@@ -10,9 +10,8 @@ let reemplace = function (original, remplazo) {
   return (text) => text.replace(original, remplazo);
 };
 
-const remplaceForPython = reemplace(/javascript/ig,'python');
-const remplaceForGo = reemplace(/javascript/ig,'GO');
+const remplaceForPython = reemplace(/javascript/gi, "python");
+const remplaceForGo = reemplace(/javascript/gi, "GO");
 
-console.log(remplaceForPython('JavaScript es un buen lenguaje'));
-console.log(remplaceForGo('JavaScript es un buen lenguaje'));
-
+console.log(remplaceForPython("JavaScript es un buen lenguaje"));
+console.log(remplaceForGo("JavaScript es un buen lenguaje"));
