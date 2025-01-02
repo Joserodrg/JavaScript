@@ -7,11 +7,11 @@
 function createScoreTracker() {
   let score = 0;
   return {
-    increment(points) {
+    increment: function (points) {
       score += points;
     },
 
-    getScore() {
+    getScore: function () {
       return score;
     },
   };

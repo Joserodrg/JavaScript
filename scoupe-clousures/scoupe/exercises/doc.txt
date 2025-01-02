@@ -1,0 +1,11 @@
+Instrucciones
+
+Crea una variable global llamada globalVar y asígnale el valor 10.
+Define una función llamada outerFunction que:
+Declare una variable local llamada outerVar y asígnale el valor 20.
+Defina una función interna llamada innerFunction que:
+Declare una variable local llamada innerVar y asígnale el valor 30.
+Imprima en la consola los valores de globalVar, outerVar e innerVar.
+Llama a la función outerFunction.
+Intenta imprimir en la consola el valor de outerVar e innerVar fuera de las funciones. Observa lo que sucede.
+Modifica el ejercicio para usar let y const en lugar de var, y observa cómo cambia el alcance de las variables.
