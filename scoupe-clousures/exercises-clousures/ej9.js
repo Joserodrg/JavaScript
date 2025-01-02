@@ -23,6 +23,7 @@ function createBoundedCounter(min, max) {
     getCounter() {
       return count;
     },
+
   };
 }
 
