@@ -11,8 +11,8 @@
 //     for (let i = 0; i < 2; i++){
 //         const loopConst = 'loop constant';
 //     }
-//     console.log(i); // referenceError i is not defined
-//     console.log(loopConst); // referenceError loopConst is not defined
+//     console.log(i); //--> referenceError i is not defined
+//     console.log(loopConst); //--> referenceError loopConst is not defined
 
 // }
 
