@@ -63,5 +63,3 @@ const pipe = function (f, g) {
 // const addOneAndMultiplyByTwo = compose(addOne, multiplyByTwo);
 const addOneAndMultiplyByTwo = pipe(multiplyByTwo, addOne);
 
-// create a compose function which accepts an array of functions and performs a right-to-left function composition
-// create a pipe function which accepts an array of functions and performs a left-to-right function composition
