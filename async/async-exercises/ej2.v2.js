@@ -10,7 +10,7 @@
 
 // f();
 
-const test = async function (file) {
+const test = function (file) {
   let promise;
   if (file === "file.pdf") {
     promise = new Promise((resolve) => {
@@ -22,12 +22,14 @@ const test = async function (file) {
     });
   }
 
-  promise.then(result =>{
-    console.log(result);
-  })
-  .catch(error =>{
-    console.log(error)
-  })
-}
-test("file.pdf");
+  promise
+    .then((result) => {
+      console.log('then: ' + result);
+    })
+    .catch((error) => {
+      console.log('catch:' + error);
+    });
+};
 
+test("file.pdf");
+test("file2.pdf");
