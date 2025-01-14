@@ -7,3 +7,5 @@ for (i = 0; i < 3; i++) {
 }
 console.log('valor de i después del for: ' + i);
 // i = 3
+
+
