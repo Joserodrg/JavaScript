@@ -5,26 +5,15 @@
 // 6b. crearla con setTimeout
 
 const hola = () => {
-  return new Promise((resolve) => {
-    let counter = 0;
-    const greeting = setInterval(() => {
-      console.log("hola");
-      if (counter >= 5) {
-        clearInterval(greeting);
-        resolve("STOP");
-      }
-    });
-    greeting();
-  });
+  let counter = 0;
+  const greeting = setInterval(() => {
+    console.log("hola");
+    counter++;
+    if (counter >= 5) {
+      clearInterval(greeting);
+      console.log("STOP");
+    }
+  }, 1000);
 };
 
-hola()
-  .then((result) => {
-    console.log(result);
-  })
-
-  .catch((error) => {
-    console.log(error);
-  });
-
-  
+hola();
