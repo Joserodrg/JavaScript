@@ -19,6 +19,10 @@ timeoutPromise(5000).then(function () {
   console.log("timed out");
 });
 
+
+
+
+
 // ERROR!!!!! NEW PROMISE = (()), (=)--> NO!
 // const timeoutPromise = (time) => {
 //      return new Promise = ((resolve) => {
