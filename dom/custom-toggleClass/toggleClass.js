@@ -6,11 +6,11 @@ const toggleClass = (element, classname) => {
       classList.push(classname);
     } else {
       const updateClassList = classList.filter((cls) => cls !== classname);
-      element.classname = updateClassList.join(' ');
+      element.classname = updateClassList.join(" ");
     }
   } else {
     // si no se cumples las condiciones primeras
-    // significa que no tenemos clases, 
+    // significa que no tenemos clases,
     // las creamos.
     element.classname = classname;
   }
